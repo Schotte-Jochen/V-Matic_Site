@@ -1,6 +1,6 @@
 using System;
 
-namespace V_Matic_Site.Models
+namespace Vmatic_Site.Models
 {
     public class ErrorViewModel
     {

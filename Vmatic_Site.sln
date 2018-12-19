@@ -3,7 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "V-Matic_Site", "V-Matic_Site\V-Matic_Site.csproj", "{0DF33796-3E1C-4355-9950-D64439B97F70}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vmatic_Site", "V-Matic_Site\Vmatic_Site.csproj", "{0DF33796-3E1C-4355-9950-D64439B97F70}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1B0CC38F-92B5-4030-BCC5-E83B264A9376}"
+	ProjectSection(SolutionItems) = preProject
+		Werklog.txt = Werklog.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
