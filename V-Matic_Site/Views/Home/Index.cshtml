@@ -3,5 +3,53 @@
     ViewData["Title"] = "Start";
 }
 
-<h2>Index</h2>
-
+<div id="headerWrapper">
+    <header id="headerHome">
+        <img /> <!-- Insert logo -->
+    </header>
+                <!-- Insert navbar (_Layout or PartialView) -->
+</div>
+<div id="mainContentWrapper" class="container body-content">    <!-- "Over Vmatic (zie design) -->
+    <div class="sectionWrapper">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col">
+                    <section id="homeAbout">
+                        <h1 class="homeSectionTitle">Over Vmatic</h1>
+                        <p class="homeContent">
+                            Deze paragraaf zal een korte intro bevatten over het bedrijf.
+                            Ook wordt er in de sectie onder deze tekst een photogallery getoond met enkele gerealiseerde projecten.
+                            Deze tekst is puur bladvulling.
+                        </p>
+                    </section>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                    <section id="homeServices">
+                        <h1 class="homeSectionTitle">Onze diensten</h1>
+                        <div class="col-sm-3">
+                            <article id="homePoorten">
+                                <img src="~/images/Test/Pic1.jpg" height="100" width="120"/>
+                                <button type="button" id="homeBtnPoorten" class="btn">Meer over onze poorten</button>
+                            </article>
+                        </div>
+                        <div class="col-sm-3">
+                            <article id="homeService">
+                                <img src="~/images/Test/pic2.jpg" height="100" width="120"/>
+                                <button type="button" id="homeBtnService" class="btn">Wij staan dag en nacht voor u klaar!</button>
+                            </article>
+                        </div>
+                        <div class="col-sm-3">
+                            <article id="homeHerstelling">
+                                <img src="~/images/Test/Pic3.jpg" height="100" width="120"/>
+                                <button type="button" id="homeBtnHerrstelling" class="btn">Herstelling nodig? Contacteer ons meteen! </button>
+                            </article>
+                        </div>
+                    </section>
+            </div>
+        </div>
+    </div> 
+</div>
+<!-- Insert Footer (_Layout or PartialView) -->
