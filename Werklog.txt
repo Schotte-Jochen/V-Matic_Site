@@ -1,2 +1,4 @@
 Warre Vlieghe - Maken desing in adobe xd - 11/2018 - Aantal uren = 2 uur
 Jochen Schotte - Begin setup site + instellen e-mail alias - 19/12/2018 - Start 16:30 - Einde 17:30
+Warre Vlieghe - Lay-out index.cshtml - 21/12/2018 - Aantal uren = 0.5 uur
+Jochen Schotte - Veredere implementatie mail - 22/12/2018 - Start 17:00 - Einde 17:50
