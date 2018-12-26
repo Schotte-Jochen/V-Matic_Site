@@ -33,6 +33,7 @@ namespace V_Matic_Site.Controllers
         [HttpPost]
         public IActionResult Contact(Mail content)
         {
+            throw new NotImplementedException();
             //TO-DO: Mail-service in werking krijgen
             if (ModelState.IsValid)
             {

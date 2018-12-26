@@ -1,40 +1,19 @@
-﻿@model Vmatic_Site.ViewModels.Mail
-
+﻿
 @{
     ViewData["Title"] = "Contact";
 }
 
 <h2>Contact</h2>
 
-<h4>Mail ons</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="Contact">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="Subject" class="control-label"></label>
-                <input asp-for="Subject" class="form-control" />
-                <span asp-validation-for="Subject" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Sender" class="control-label"></label>
-                <input asp-for="Sender" class="form-control" />
-                <span asp-validation-for="Sender" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Message" class="control-label"></label>
-                <textarea asp-for="Message" class="form-control"></textarea>
-                <span asp-validation-for="Message" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Verzenden" class="btn btn-default" />
-            </div>
-        </form>
-    </div>
-</div>
-
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
-
+<dl>
+    <dd>Tel:</dd>
+    <dt>+32 468 46 70 46</dt>
+    <dd>Email:</dd>
+    <dt>info@vmatic.be</dt>
+    <dd>Facebook:</dd>
+    <dt>
+        <a href="https://www.facebook.com/vmatic.be/" class="btn btn-primary btn-sm" role="button">
+            Klik hier
+        </a>
+    </dt>
+</dl>

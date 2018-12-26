@@ -1,0 +1,8 @@
+[
+  {
+    "outputFileName": "wwwroot/css/vmatic.min.css",
+    "inputFiles": [
+      "wwwroot/css/vmatic.css"
+    ]
+  }
+]

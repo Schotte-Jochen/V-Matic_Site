@@ -79,7 +79,6 @@ D:\Documents\Onderneming\VMatic\VMaticSite\V-Matic_Site\obj\Debug\netcoreapp2.1\
 D:\Documents\Onderneming\VMatic\VMaticSite\V-Matic_Site\obj\Debug\netcoreapp2.1\Vmatic_Site.TagHelpers.output.cache
 D:\Documents\Onderneming\VMatic\VMaticSite\V-Matic_Site\obj\Debug\netcoreapp2.1\Vmatic_Site.RazorCoreGenerate.cache
 D:\Documents\Onderneming\VMatic\VMaticSite\V-Matic_Site\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
-D:\Documents\Onderneming\VMatic\VMaticSite\V-Matic_Site\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
 D:\Documents\Onderneming\VMatic\VMaticSite\V-Matic_Site\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
 D:\Documents\Onderneming\VMatic\VMaticSite\V-Matic_Site\obj\Debug\netcoreapp2.1\Razor\Views\Home\Thanks.g.cshtml.cs
 D:\Documents\Onderneming\VMatic\VMaticSite\V-Matic_Site\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
@@ -94,3 +93,5 @@ D:\Documents\Onderneming\VMatic\VMaticSite\V-Matic_Site\obj\Debug\netcoreapp2.1\
 D:\Documents\Onderneming\VMatic\VMaticSite\V-Matic_Site\obj\Debug\netcoreapp2.1\Vmatic_Site.dll
 D:\Documents\Onderneming\VMatic\VMaticSite\V-Matic_Site\obj\Debug\netcoreapp2.1\Vmatic_Site.pdb
 D:\Documents\Onderneming\VMatic\VMaticSite\V-Matic_Site\obj\Debug\netcoreapp2.1\Vmatic_Site.csproj.CopyComplete
+D:\Documents\Onderneming\VMatic\VMaticSite\V-Matic_Site\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contactv2.g.cshtml.cs
+D:\Documents\Onderneming\VMatic\VMaticSite\V-Matic_Site\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
