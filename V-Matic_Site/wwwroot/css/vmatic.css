@@ -1,2 +1,76 @@
 ﻿body {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body div#mainContentWrapper div.pageSection {
+    background-color: white;
+    margin: 10px auto;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+body > nav.navbar {
+    background-color: black;
+    border: none;
+}
+
+a.navbar-brand {
+    padding: 0;
+}
+
+a.navbar-brand>img {
+    height: 50px;
+}
+
+footer {
+    text-align: center;
+}
+
+.homeSectionTitle, .carouselTitle {
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+}
+
+.homeSectionTitle {
+    background-color: black;
+    border-radius: 5px;
+    width: 95%;
+    margin: auto;
+}
+
+.homeContent {
+    text-align: center;
+    margin: 10px;
+}
+
+.carouselTitle {
+    background-color: #d8212a;
+    width: 50%;
+    position: relative;
+    left: 25%;
+    border-radius: 20px;
+}
+
+div.carousel-inner div.item img {
+    height: 287px;
+}
+
+#myCarousel {
+    width: 215px;
+    margin: auto;
+}
+
+a.btn-vmatic {
+    background-color: #d8212a;
+    color: white;
+    margin-top: 5px;
+}
+
+#contact {
+    margin-left: 40px;
 }

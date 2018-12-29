@@ -95,3 +95,4 @@ D:\Documents\Onderneming\VMatic\VMaticSite\V-Matic_Site\obj\Debug\netcoreapp2.1\
 D:\Documents\Onderneming\VMatic\VMaticSite\V-Matic_Site\obj\Debug\netcoreapp2.1\Vmatic_Site.csproj.CopyComplete
 D:\Documents\Onderneming\VMatic\VMaticSite\V-Matic_Site\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contactv2.g.cshtml.cs
 D:\Documents\Onderneming\VMatic\VMaticSite\V-Matic_Site\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
+D:\Documents\Onderneming\VMatic\VMaticSite\V-Matic_Site\obj\Debug\netcoreapp2.1\Razor\Views\Shared\UnderConstruction.g.cshtml.cs

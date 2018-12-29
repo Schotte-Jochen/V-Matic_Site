@@ -3,3 +3,4 @@ Jochen Schotte - Begin setup site + instellen e-mail alias - 19/12/2018 - Start 
 Warre Vlieghe - Lay-out index.cshtml - 21/12/2018 - Aantal uren = 0.5 uur
 Jochen Schotte - Veredere implementatie mail - 22/12/2018 - Start 17:00 - Einde 17:50
 Jochen Schotte - Invoegen nieuwe contact-pagina (zonder contactformulier) als tijdelijke oplossing - 26/12/2018 - Start 16:20 - Einde 16:50
+Jochen Schotte - Eerste versie CSS + Onder constructie pagina + Icoon in tabblad titel toevoegen + Index pagina afwerken - 29/12/2018 - Start 16:20 - Einde 18:40
