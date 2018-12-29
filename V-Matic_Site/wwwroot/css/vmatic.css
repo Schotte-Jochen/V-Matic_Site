@@ -1,21 +1,50 @@
 ﻿body {
+   
     background-color: black;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+#logo {
+    width: 25%;
+    height: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+h1 {
+    font-size: 35px;
+    padding: 10px;
 }
 
 body div#mainContentWrapper div.pageSection {
     background-color: white;
-    margin: 10px auto;
     padding: 10px;
     width: 100%;
     box-sizing: border-box;
-    border-radius: 10px;
+    border-radius: 15px;
+    margin-top: 25px;
+    margin-bottom: 40px;
 }
 
 body > nav.navbar {
     background-color: black;
     border: none;
 }
+/*
+    --> TODO: Separator bij navbar items
+
+body > nav.navbar li::after {
+    content: "|";
+    float: right;
+    color: #fff;
+}
+body > nav.navbar li:last-child::after {
+    display: none;
+}
+*/
 
 a.navbar-brand {
     padding: 0;
@@ -27,25 +56,41 @@ a.navbar-brand>img {
 
 footer {
     text-align: center;
-}
-
-.homeSectionTitle, .carouselTitle {
-    text-align: center;
-    font-weight: bold;
-    font-style: italic;
     color: white;
 }
 
+h2 {
+    padding: 10px;
+}
+
+.carouselTitle {
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    font-style: italic;
+    border-radius: 15px;
+    background-color: red;
+    
+}
+
 .homeSectionTitle {
+    
+    color: white;
+    text-align: center;
     background-color: black;
-    border-radius: 5px;
+    border-radius: 15px;
     width: 95%;
     margin: auto;
 }
 
 .homeContent {
     text-align: center;
-    margin: 10px;
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 10px;
+    border: 1px solid #BCBCBC;
+    padding: 5px;
+    width: 95%;
 }
 
 .carouselTitle {
@@ -53,7 +98,7 @@ footer {
     width: 50%;
     position: relative;
     left: 25%;
-    border-radius: 20px;
+    border-radius: 15px;
 }
 
 div.carousel-inner div.item img {
@@ -63,12 +108,40 @@ div.carousel-inner div.item img {
 #myCarousel {
     width: 215px;
     margin: auto;
+    border: 3px solid #BCBCBC;
+    border-radius: 15px;        /* Border Radius van images aanpassen (hoe?)*/
 }
 
+#myCarousel .li {
+    border-radius: 15px;
+}
+
+h3.articleTitle {
+    font-weight: bold;
+}
+
+.articleContent {
+    border: 1px solid #BCBCBC;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+}
 a.btn-vmatic {
-    background-color: #d8212a;
+    background-color: red;
     color: white;
     margin-top: 5px;
+    padding: 6px;
+    font-size: 19px;
+    border-radius: 50px;
+}
+
+a.btn-footer {
+    background-color: #3B5998;
+    color: white;
+    margin-top: 5px;
+    padding: 6px;
+    font-size: 20px;
+    border-radius: 3px;
 }
 
 #contact {

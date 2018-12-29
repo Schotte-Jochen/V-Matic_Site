@@ -23,6 +23,9 @@
     </environment>
 </head>
 <body>
+    <header id="logoHeader">
+        <img id="logo" src="~/images/LogoCorrection.png" class="logo"/>
+    </header>
     <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
@@ -33,7 +36,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand">
-                    <img src="~/images/LogoCorrection.png" class="logo" />
+                    <!-- Hierr stond het logo origineel, in de links van de navbar -->
                 </a>
             </div>
             <div class="navbar-collapse collapse">
@@ -54,7 +57,14 @@
     </div>
 
     <footer>
+        <div id="copyright">
         <p>&copy; 2018 - Jochen Schotte &amp; Warre Vlieghe</p>
+        </div>
+        <div id="socialMedia">
+            <a asp-action="https://www.facebook.com/vmatic.be/?ref=br_rs" class="btn btn-footer btn-social btn-facebook" role="button">
+                <span class="fa fa-facebook"></span>Bezoek ons op Facebook
+            </a>
+        </div>
     </footer>
 
     <environment include="Development">
