@@ -130,3 +130,5 @@ C:\Users\warre\Source\Repos\V-Matic_Site\V-Matic_Site\obj\Debug\netcoreapp2.1\Vm
 C:\Users\warre\Source\Repos\V-Matic_Site\V-Matic_Site\obj\Debug\netcoreapp2.1\Vmatic_Site.dll
 C:\Users\warre\Source\Repos\V-Matic_Site\V-Matic_Site\obj\Debug\netcoreapp2.1\Vmatic_Site.pdb
 C:\Users\warre\Source\Repos\V-Matic_Site\V-Matic_Site\obj\Debug\netcoreapp2.1\Vmatic_Site.csproj.CopyComplete
+D:\Documents\Onderneming\VMatic\V-Matic_Site\V-Matic_Site\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contactv2.g.cshtml.cs
+D:\Documents\Onderneming\VMatic\V-Matic_Site\V-Matic_Site\obj\Debug\netcoreapp2.1\Razor\Views\Shared\UnderConstruction.g.cshtml.cs

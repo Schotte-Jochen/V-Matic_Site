@@ -1,5 +1,4 @@
 ﻿body {
-   
     background-color: black;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
@@ -11,7 +10,6 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    
 }
 
 h1 {
@@ -20,6 +18,7 @@ h1 {
 }
 
 body div#mainContentWrapper div.pageSection {
+    clear: both;
     background-color: white;
     padding: 10px;
     width: 100%;
@@ -29,32 +28,20 @@ body div#mainContentWrapper div.pageSection {
     margin-bottom: 40px;
 }
 
-body > nav.navbar {
+body nav.navbar {
     background-color: black;
     border: none;
 }
-/*
-    --> TODO: Separator bij navbar items
-
-body > nav.navbar li::after {
-    content: "|";
-    float: right;
-    color: #fff;
-}
-body > nav.navbar li:last-child::after {
-    display: none;
-}
-*/
 
 a.navbar-brand {
     padding: 0;
 }
 
-a.navbar-brand>img {
+a.navbar-brand img {
     height: 50px;
 }
 
-footer {
+footer, .carouselTitle, .homeSectionTitle {
     text-align: center;
     color: white;
 }
@@ -63,57 +50,63 @@ h2 {
     padding: 10px;
 }
 
+.carouselTitle, .homeSectionTitle, .pageTitle {
+    border-radius: 15px;
+}
+
+.carouselTitle, .pageTitle {
+    background-color: #d8212a;
+}
+
 .carouselTitle {
     font-size: 25px;
-    color: white;
-    text-align: center;
     font-style: italic;
-    border-radius: 15px;
-    background-color: red;
-    
+    width: 50%;
+    position: relative;
+    left: 25%;
+}
+
+.pageTitle {
+    color: white;
+    float: left;
+    clear: left;
+    padding: 10px;
+    font-size: 0.95em;
 }
 
 .homeSectionTitle {
-    
-    color: white;
-    text-align: center;
     background-color: black;
-    border-radius: 15px;
     width: 95%;
     margin: auto;
 }
 
 .homeContent {
     text-align: center;
-    border-radius: 15px;
     margin: auto;
     margin-top: 10px;
-    border: 1px solid #BCBCBC;
-    padding: 5px;
+    padding: 10px;
     width: 95%;
 }
 
-.carouselTitle {
-    background-color: #d8212a;
-    width: 50%;
-    position: relative;
-    left: 25%;
-    border-radius: 15px;
-}
-
-div.carousel-inner div.item img {
-    height: 287px;
-}
-
-#myCarousel {
+.carouselWrapper, #myCarousel, div.carousel-inner div.item img {
     width: 215px;
-    margin: auto;
-    border: 3px solid #BCBCBC;
-    border-radius: 15px;        /* Border Radius van images aanpassen (hoe?)*/
 }
 
-#myCarousel .li {
+.contentBorder, .imgWrapper, .carouselWrapper {
     border-radius: 15px;
+    border: 1px solid #BCBCBC;
+}
+
+.imgWrapper, .carouselWrapper {
+    padding: 4px;
+    background-color: #bcbcbc;
+    border-width: 3px;
+    box-sizing: content-box;
+    margin: auto;
+}
+
+.imgWrapper, .imgWrapper img {
+    width: 120px;
 }
 
 h3.articleTitle {
@@ -121,29 +114,42 @@ h3.articleTitle {
 }
 
 .articleContent {
-    border: 1px solid #BCBCBC;
-    border-radius: 5px;
     padding: 10px;
     margin-top: 10px;
 }
+
 a.btn-vmatic {
-    background-color: red;
+    background-color: #d8212a;
     color: white;
     margin-top: 5px;
-    padding: 6px;
+    padding: 15px;
     font-size: 19px;
     border-radius: 50px;
 }
 
-a.btn-footer {
+a.btn-facebook {
     background-color: #3B5998;
     color: white;
+}
+
+a.btn-footer {
     margin-top: 5px;
     padding: 6px;
     font-size: 20px;
     border-radius: 3px;
 }
 
-#contact {
-    margin-left: 40px;
+br.separator {
+    clear: both;
+}
+
+a.btn-facebook img {
+    width: 50px;
+    position:relative;
+    right: 10px;
+    bottom: 3px;
+}
+
+.body-content {
+    padding: 0;
 }
