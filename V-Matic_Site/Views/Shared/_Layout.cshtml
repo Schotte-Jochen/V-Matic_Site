@@ -10,6 +10,8 @@
         <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
         <link rel="stylesheet" href="~/css/site.css" />
         <link href="~/css/vmatic.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+        <link href="~/css/bootstrap-social.css" rel="stylesheet" />
         @RenderSection("Styles", required: false)
     </environment>
     <environment exclude="Development">
@@ -19,6 +21,8 @@
               asp-fallback-test-class="sr-only" asp-fallback-test-property="position" asp-fallback-test-value="absolute" />
         <link rel="stylesheet" href="~/css/site.min.css" asp-append-version="true" />
         <link href="~/css/vmatic.min.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+        <link href="~/css/bootstrap-social.css" rel="stylesheet" />
         @RenderSection("Styles", required: false)
     </environment>
 </head>
@@ -58,11 +62,11 @@
 
     <footer>
         <div id="copyright">
-        <p>&copy; 2018 - Jochen Schotte &amp; Warre Vlieghe</p>
+            <p>&copy; 2018 - Jochen Schotte &amp; Warre Vlieghe</p>
         </div>
         <div id="socialMedia">
-            <a asp-action="https://www.facebook.com/vmatic.be/?ref=br_rs" class="btn btn-footer btn-social btn-facebook" role="button">
-                <span class="fa fa-facebook"></span>Bezoek ons op Facebook
+            <a href="https://www.facebook.com/vmatic.be/?ref=br_rs" class="btn btn-block btn-social btn-facebook">
+                <span class="fa fa-facebook"></span>Bezoek ons op Facebook!
             </a>
         </div>
     </footer>

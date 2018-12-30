@@ -5,3 +5,4 @@ Jochen Schotte - Veredere implementatie mail - 22/12/2018 - Start 17:00 - Einde 
 Jochen Schotte - Invoegen nieuwe contact-pagina (zonder contactformulier) als tijdelijke oplossing - 26/12/2018 - Start 16:20 - Einde 16:50
 Jochen Schotte - Eerste versie CSS + Onder constructie pagina + Icoon in tabblad titel toevoegen + Index pagina afwerken - 29/12/2018 - Start 16:20 - Einde 18:40
 Warre Vlieghe - Verder werken aan globale CSS - 29/12/2018 - Start 19:50 - Einde 22:00
+Warre Vlieghe - Verder werken aan globale CSS: icoontjes invoegen met CSS libraries - 30/12/2018 - Start 13:30 - Einde 14:30
