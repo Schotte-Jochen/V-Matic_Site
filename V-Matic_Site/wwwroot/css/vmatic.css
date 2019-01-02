@@ -132,6 +132,14 @@ a.btn-facebook {
     color: white;
 }
 
+a.btn-facebook img {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    right: 10px;
+    bottom: 3px;
+}
+
 a.btn-footer {
     margin-top: 5px;
     padding: 6px;
@@ -143,12 +151,15 @@ br.separator {
     clear: both;
 }
 
-a.btn-facebook img {
-    width: 50px;
-    position:relative;
-    right: 10px;
-    bottom: 3px;
-}
+/*
+    #footerInfo {
+        }
+    #copyright {
+    font-size: 0.9em;
+    font-style: italic;
+        }
+    --> staat inline in _Layout.cshtml
+*/
 
 .body-content {
     padding: 0;
