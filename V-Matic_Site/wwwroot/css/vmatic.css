@@ -136,7 +136,6 @@ a.btn-facebook img {
     width: 30px;
     height: 30px;
     position: relative;
-    right: 10px;
     bottom: 3px;
 }
 
@@ -163,4 +162,11 @@ br.separator {
 
 .body-content {
     padding: 0;
+}
+
+.carousel-caption p {
+    font-size: 0.8em;
+    background-color: black;
+    border-radius: 15px;
+    border: 1px solid #BCBCBC
 }
